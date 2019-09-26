@@ -1,0 +1,16 @@
+{
+    "extends": "airbnb",
+    /* Tells which env our scripts are designed to run in
+        Linter won't throw errors when we use global variables like document or window */
+    "env":{
+        "es6": true,
+        "browser": true,
+        "node": true
+
+    },
+    "rules": {
+        "react/jsx-filename-extension": 0,
+        "react/forbid-prop-types": 0
+    },
+    "parser": "babel-eslint"
+}
